@@ -25,7 +25,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "resolutions": {
-    "eslint-plugin-vue/vue-eslint-parser": "github:helixbass/vue-eslint-parser#f6e9ee46"
+    "eslint-plugin-vue/vue-eslint-parser": "github:helixbass/vue-eslint-parser#aa6d4dd8"
   },
   "eslintConfig": {
     "root": true,
