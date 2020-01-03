@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint 'src/**/*.{coffee,vue}'"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.4.4",
@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
-    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-eslint": "github:helixbass/vue-cli#vue-cli-plugin-eslint-v4.1.2-dev-400-gitpkg",
     "@vue/cli-service": "^4.1.0",
     "babel-eslint": "^10.0.3",
     "coffee-loader": "^0.9.0",

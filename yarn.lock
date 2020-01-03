@@ -932,6 +932,16 @@
     webpack "^4.0.0"
     yorkie "^2.0.0"
 
+"@vue/cli-plugin-eslint@github:helixbass/vue-cli#vue-cli-plugin-eslint-v4.1.2-dev-400-gitpkg":
+  version "4.1.2-dev-400"
+  resolved "https://codeload.github.com/helixbass/vue-cli/tar.gz/057bd1256f3dd48ed0c2469f4c65e7c5364db179"
+  dependencies:
+    "@vue/cli-shared-utils" "^4.1.2"
+    eslint-loader "^2.1.2"
+    globby "^9.2.0"
+    webpack "^4.0.0"
+    yorkie "^2.0.0"
+
 "@vue/cli-plugin-router@^4.1.2":
   version "4.1.2"
   resolved "https://registry.npm.taobao.org/@vue/cli-plugin-router/download/@vue/cli-plugin-router-4.1.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-plugin-router%2Fdownload%2F%40vue%2Fcli-plugin-router-4.1.2.tgz#dc0fddfa4b8812f8a81746ac5beffb9168dcc81f"
