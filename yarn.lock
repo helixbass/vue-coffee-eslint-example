@@ -2076,6 +2076,18 @@ code-point-at@^1.0.0:
   resolved "https://registry.npm.taobao.org/code-point-at/download/code-point-at-1.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcode-point-at%2Fdownload%2Fcode-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
+coffee-loader@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.npm.taobao.org/coffee-loader/download/coffee-loader-0.9.0.tgz#6deabd336062ddc6d773da4dfd16367fc7107bd6"
+  integrity sha1-beq9M2Bi3cbXc9pN/RY2f8cQe9Y=
+  dependencies:
+    loader-utils "^1.0.2"
+
+coffeescript@^2.3.2:
+  version "2.5.0"
+  resolved "https://registry.npm.taobao.org/coffeescript/download/coffeescript-2.5.0.tgz?cache=0&sync_timestamp=1577863765737&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcoffeescript%2Fdownload%2Fcoffeescript-2.5.0.tgz#9ce853766fa8363384d80f06f79fa8d5b13f566f"
+  integrity sha1-nOhTdm+oNjOE2A8G95+o1bE/Vm8=
+
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/collection-visit/download/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
@@ -7673,6 +7685,11 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
+
+vue-cli-plugin-coffee@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npm.taobao.org/vue-cli-plugin-coffee/download/vue-cli-plugin-coffee-0.1.0.tgz#9c11828db3756085dd9fb4a5dd165539ac4713dc"
+  integrity sha1-nBGCjbN1YIXdn7Sl3RZVOaxHE9w=
 
 vue-eslint-parser@^5.0.0:
   version "5.0.0"
