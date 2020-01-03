@@ -8180,9 +8180,9 @@ vue-cli-plugin-coffee@^0.1.0:
   resolved "https://registry.npm.taobao.org/vue-cli-plugin-coffee/download/vue-cli-plugin-coffee-0.1.0.tgz#9c11828db3756085dd9fb4a5dd165539ac4713dc"
   integrity sha1-nBGCjbN1YIXdn7Sl3RZVOaxHE9w=
 
-vue-eslint-parser@^5.0.0, "vue-eslint-parser@github:helixbass/vue-eslint-parser#aa6d4dd8":
-  version "7.0.0-dev.301"
-  resolved "https://codeload.github.com/helixbass/vue-eslint-parser/tar.gz/aa6d4dd81a2b099edf1523656247bbf5f77e2361"
+vue-eslint-parser@^5.0.0, "vue-eslint-parser@github:helixbass/vue-eslint-parser#0fff0dd1":
+  version "7.0.0-dev.302"
+  resolved "https://codeload.github.com/helixbass/vue-eslint-parser/tar.gz/0fff0dd1391a5b792a2987572fd55422f53c5f90"
   dependencies:
     debug "^4.1.1"
     eslint-scope "^5.0.0"
