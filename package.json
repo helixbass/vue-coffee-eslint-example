@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint 'src/**/*.{coffee,vue}'"
   },
   "dependencies": {
     "core-js": "^3.4.4",
@@ -17,24 +17,35 @@
     "@vue/cli-service": "^4.1.0",
     "babel-eslint": "^10.0.3",
     "coffee-loader": "^0.9.0",
-    "coffeescript": "^2.3.2",
-    "eslint": "^5.16.0",
+    "coffeescript": "^2.5.0",
+    "eslint": "^6.0.0",
+    "eslint-plugin-coffee": "^0.1.12",
     "eslint-plugin-vue": "^5.0.0",
     "vue-cli-plugin-coffee": "^0.1.0",
     "vue-template-compiler": "^2.6.10"
+  },
+  "resolutions": {
+    "eslint-plugin-vue/vue-eslint-parser": "github:helixbass/vue-eslint-parser#f6e9ee46"
   },
   "eslintConfig": {
     "root": true,
     "env": {
       "node": true
     },
+    "plugins": [
+      "coffee"
+    ],
     "extends": [
       "plugin:vue/essential",
-      "eslint:recommended"
+      "plugin:coffee/eslint-recommended"
     ],
-    "rules": {},
+    "rules": {
+      "coffee/id-length": "off",
+      "vue/require-render-return": "off"
+    },
+    "parser": "vue-eslint-parser",
     "parserOptions": {
-      "parser": "babel-eslint"
+      "parser": "eslint-plugin-coffee"
     }
   },
   "browserslist": [
