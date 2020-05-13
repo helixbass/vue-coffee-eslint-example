@@ -4,6 +4,7 @@
 ```
 yarn install
 ```
+IMPORTANT: npm won't work since it can't resolve the "resolution" field in package.json, which loads a customized parser to make this example work.
 
 ### Compiles and hot-reloads for development
 ```
